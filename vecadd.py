@@ -1,8 +1,6 @@
-# vecadd.py - Parallel version using ThreadPoolExecutor
 
 from concurrent.futures import ThreadPoolExecutor
 
-# Input two vectors in correct way that they have dot product possible
 v1 = list(map(int, input("Enter elements of first vector separated by space: ").split()))
 v2 = list(map(int, input("Enter elements of second vector separated by space: ").split()))
 def dot_product_parallel(a, b):
