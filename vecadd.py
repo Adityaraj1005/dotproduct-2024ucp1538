@@ -13,3 +13,4 @@ if __name__ == "__main__":
     a = [1, 2, 3, 4, 5]
     b = [5, 4, 3, 2, 1]
     print("Parallel Dot product:", dot_product_parallel(a, b))
+    print("hello")
